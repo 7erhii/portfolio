@@ -306,7 +306,7 @@ span {
 
 /* ____________________MEDIA__________________-------------------- */
 
-@media all and (max-width: 620px) {
+@media all and (max-width: 640px) {
 
   .wrapper {
     width: 100%;
