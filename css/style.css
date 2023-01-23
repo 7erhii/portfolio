@@ -244,7 +244,7 @@ span {
 }
 
 .dark .card {
-  background-color: #a5acbd;
+  background-color: #9eaed3;
 }
 
 /* ___________________EXAMPLE_______________ */
@@ -304,17 +304,10 @@ span {
 /* ______________________FOOTEREND_________________ */
 
 
-/* ____________________MEDIA__________________ */
+/* ____________________MEDIA__________________-------------------- */
 
 @media all and (max-width: 620px) {
 
-
-
-  
-
-  
-
-  
   .wrapper {
     width: 100%;
     margin: 0 auto;
@@ -421,5 +414,17 @@ span {
     color: #E5E5E5;
   }
   
+  .card {
+    padding: 7px;
+    margin: 40px;
+  }
 
+  .card img {
+    border-radius: 10px;
+    
+  }
+
+  .dark .card {
+    background-color: #9eaed3;
+  }
 }
