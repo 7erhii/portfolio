@@ -1,0 +1,425 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.page {
+  background-color: #fff;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+
+.switch {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #7702ff;
+}
+
+.switch_icon {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  width: 40px;
+}
+
+.swtich_help {
+  font-size: 12px;
+}
+
+/* ________________HEADER_________________ */
+
+.header {
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+}
+.header_photo{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.header_photo img {
+  margin-right: 40px;
+  border: 8px solid  rgb(62, 68, 247);
+  border-radius: 100%;
+}
+
+.header_tel a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 69px;
+  text-decoration: none;
+  color: rgb(62, 68, 247);
+}
+
+.photo_img {
+  display: flex;
+  width: 215px;
+  border-radius: 50%;
+}
+
+.header_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header_description-name {
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 69px;
+  text-shadow: 6px 9px 13px rgba(34, 33, 32, 0.3);
+}
+
+.text-name {
+  color: #3D3D3D;
+}
+
+
+.text-page {
+  font-weight: 500;
+  font-size: 22px;
+  color: #575757;
+}
+
+.header_description-icons {
+  display: flex;
+  justify-content: space-around;
+  opacity: 70%;
+  margin: 0 -15px;
+}
+
+/* ______________________BUTTONS BLOCK______________ */
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.contactscv {
+  padding: 7px;
+  border-radius: 6px;
+  width: 600px;
+  background-color: rgb(62, 68, 247);
+  font-size: 26px;
+  color: #E5E5E5;
+}
+
+.img_background {
+  background-color: rgb(62, 68, 247);
+}
+
+/* _____________BUTTONS END_________ */
+
+
+/* ___________descr_cards______________ */
+
+
+.descr_cards {
+  display: flex;
+  padding-top: 40px;
+}
+
+/* ___________descr_cardsEND______________ */
+
+
+
+
+/* ___________________ICONS_TOP______________ */
+
+.header_social {
+  display: flex;
+  padding-left: 0;
+}
+
+span {
+  background-color: inherit;
+}
+
+.header_social .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.header_social .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.header_social .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.header_social .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.header_social .icon:hover span,
+.header_social .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .telegram:hover,
+.wrapper .telegram:hover .tooltip,
+.wrapper .telegram:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.header_social .twitter:hover,
+.header_social .twitter:hover .tooltip,
+.header_social .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.header_social .instagram:hover,
+.header_social .instagram:hover .tooltip,
+.header_social .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.header_social .github:hover,
+.header_social .github:hover .tooltip,
+.header_social .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.fa-brands,
+.fab {
+  background-color: inherit;
+}
+/* ______________________________SWITCH______________________ */
+
+
+.dark {
+  background-color: #101829;
+}
+
+.dark .card {
+  background-color: #a5acbd;
+}
+
+/* ___________________EXAMPLE_______________ */
+
+.examlpe .wrapper {
+  width: 100%;
+  margin: 40px auto 0 auto;
+}
+.examlpe .example_descr {
+  margin-bottom: 0;
+  padding: 7px;
+  background-color: rgb(62, 68, 247);
+  text-align: center;
+  font-size: 18px;
+  border-radius: 9px 9px 0 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* ___________________EXAMPLEEND_______________ */
+
+
+/* _____________________SLIDER___________________ */
+
+.slider {
+  margin: 0 auto 40px auto;
+
+}
+
+/* ______________________SLIDEREND__________________ */
+
+/* _____________________FOOTER____________________ */
+
+
+.footer {
+  background-color: #1f1f1fca;
+  color: #a5acbd;
+  list-style: none;
+  padding: 10px;
+}
+
+.footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.footer a {
+  color: #e4405e9e;
+}
+
+.dark .footer  {
+  background-color: #201f25;
+}
+
+
+/* ______________________FOOTEREND_________________ */
+
+
+/* ____________________MEDIA__________________ */
+
+@media all and (max-width: 620px) {
+
+
+
+  
+
+  
+
+  
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  
+  }
+  
+  .switch {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #7702ff;
+  }
+
+  .switch ul {
+    padding-left: 0;
+  }
+  
+  .switch_icon {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 40px;
+  }
+  
+  .swtich_help {
+    font-size: 12px;
+  }
+  
+  /* ________________HEADER_________________ */
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: center;
+  }
+  
+  .header_tel a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    color: rgb(62, 68, 247);
+  }
+
+  .header_tel {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .header_photo img {
+    margin-right: 0;
+  }
+  
+  .header_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .header_description-name {
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 69px;
+    text-shadow: 6px 9px 13px rgba(34, 33, 32, 0.3);
+  }
+  
+  .text-name {
+    color: #3D3D3D;
+  }
+  
+  
+  .text-page {
+    font-weight: 500;
+    font-size: 22px;
+    color: #575757;
+    text-align: center;
+  }
+  
+  .header_description-icons {
+    display: flex;
+    justify-content: space-around;
+    opacity: 70%;
+    margin: 0 -15px;
+  }
+  
+  /* ______________________BUTTONS BLOCK______________ */
+  
+  .contacts {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  .contactscv {
+    padding: 7px;
+    border-radius: 6px;
+    width: 296px;
+    background-color: rgb(62, 68, 247);
+    font-size: 26px;
+    color: #E5E5E5;
+  }
+  
+
+}
