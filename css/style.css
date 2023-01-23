@@ -367,7 +367,10 @@ span {
   .header_photo img {
     margin-right: 0;
   }
-  
+  .header_social {
+    display: flex;
+    justify-content: space-between;
+  }
   .header_description {
     display: flex;
     flex-direction: column;
